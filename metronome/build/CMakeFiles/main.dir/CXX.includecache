@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/LAB3/metronome/main.cpp
+chrono
+-
+thread
+-
+iostream
+-
+cpprest/http_msg.h
+-
+wiringPi.h
+-
+metronome.hpp
+/home/pi/LAB3/metronome/metronome.hpp
+rest.hpp
+/home/pi/LAB3/metronome/rest.hpp
+
+/home/pi/LAB3/metronome/metronome.hpp
+cstddef
+-
+cfloat
+-
+
+/home/pi/LAB3/metronome/rest.hpp
+string
+-
+cpprest/http_listener.h
+-
+
